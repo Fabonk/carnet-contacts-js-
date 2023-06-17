@@ -86,8 +86,7 @@ function editContact(){
 function deleteContact(){
     let nom = document.querySelector('.nomIdentite');
      nom.parentElement.parentElement.remove();
-     btnAdd.style.display="block";
-     form.style.display="none";
+     clearInput();
 }
 
 

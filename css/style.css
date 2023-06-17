@@ -101,4 +101,9 @@ input,select, option{
 }
 .btnModif, .btnSupp{
     margin-left: 30px;
+    background-color: orange;
+}
+#btnSupp{
+    margin-left: 30px;
+    background-color: red;
 }
