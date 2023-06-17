@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet des contacts</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="section1">
+                <div class="entete">
+                    <h1 class="title">Mes contacts</h1>
+                    <button id="btn-add">Ajouter</button> 
+                </div>
+                <div class="contact-list">
+                    
+                </div>
+        </div>
+        <div class="section2">
+            <div id="form" class="form-add">
+                    <h2 id="TitreAjoutContact">Ajouter un contact</h2>
+                    <form action="">
+                            <table>
+                                <tr><td>Nom</td><td>Prénom</td></tr>
+                                <tr><td><input type="text" id="nom" name="nom"></td><td><input type="text" id="prenom" name="prenom"></td></tr>
+                                <tr><td>Pays</td><td>Genre</td></tr>
+                                <tr><td><select name="pays" id="pays">
+                                        <option value="RDC">RDC</option>
+                                        <option value="Tchad">Tchad</option>
+                                        <option value="Cameroun">Cameroun</option>
+                                        <option value="Gabon">Gabon</option>
+                                </select></td><td><select name="genre" id="genre">
+                                    <option value="Femme">Femme</option>
+                                    <option value="Homme">Homme</option>
+                                </select></td></tr>
+                                <tr><td>E-mail</td><td>Téléphone</td></tr>
+                                <tr><td><input type="text" id="email" name="email"></td><td><input type="text" id="phone" name="phone"></td></tr>
+                                <tr><td>Date de naissance</td><td>Photo</td></tr>
+                                <tr><td><input type="date" id="birthday" name="birthday"></td><td><input type="file" id="avatar" name="avatar"></td></tr>
+                                <tr><td><button type="submit" id="btn-submit" class="btnAdd">Ajouter ce contact</button></td>
+                                    <td><button id="btn-cancel" class="btnAnnuler" type="submit">Annuler</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>

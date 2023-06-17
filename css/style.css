@@ -1,0 +1,104 @@
+body{
+    font-family: 'Arial';
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+.block{
+    display: flex;
+    width: 100%;
+}
+
+.block .block2{
+    width: 50%;
+    padding-left: 15px;
+}
+.block .block1{
+    width: 50%;
+    border-right: #eee solid;
+}
+.list-contact li{
+    list-style-type: none;
+}
+.container1{
+    display: flex;
+}
+.section1{
+    border-right:solid #eee ;
+    width: 50%;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.section2{
+    width: 50%;
+    margin-left: 30px;
+    padding-top: 100px;
+}
+.entete{
+    display: flex;
+}
+.title{
+    font-size: 38px;
+    font: weight 0px;
+}
+.contact{
+    display: flex;
+}
+.contact .identite .autre{
+    margin-top: -20px;
+}
+.contact .action button{
+    margin-top: 20px;
+}
+.contact .action{
+    margin-left: 100px;
+}
+.entete #btn-add{
+    height: 37px;
+    width: 70px;
+    margin-top: 28px;
+    margin-left: 20px;
+    background-color: #0066ff;
+    color: #fff;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section2 .btnAdd{
+    height: 25px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: #0066FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section2 .btnAnnuler{
+    height: 25px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #747474;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input,select, option{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#form{
+    display: none;
+}
+.btnModif, .btnSupp{
+    margin-left: 30px;
+}
